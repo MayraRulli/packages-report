@@ -6,3 +6,5 @@ ipt <- installed.packages() %>%
   as.tibble %>%
   select(Package, LibPath, Version, Priority, Built)
 ipt
+
+A comment added on github
